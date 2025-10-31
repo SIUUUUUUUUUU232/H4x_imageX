@@ -1,0 +1,5 @@
+{
+  "name": "H4X IMAGE EDITOR",
+  "description": "An AI-powered image editor that allows users to upload an image and provide a text prompt to modify it using Google's Gemini API.",
+  "requestFramePermissions": []
+}
