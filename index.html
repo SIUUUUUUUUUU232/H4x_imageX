@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Localhost 8080 Viewer</title>
+  <title>H4X STREAMER V1</title>
   <style>
     body {
       margin: 0;
@@ -34,8 +34,8 @@
   </style>
 </head>
 <body>
-  <header>Localhost 8080 Web Viewer</header>
-  <div id="status">Checking if localhost:8080 is open...</div>
+  <header>H4X STREAMER V1</header>! ME
+  <div id="status">LOADING STREAMER CONTROL</div>
   <iframe id="viewer"></iframe>  <script>
     async function checkPort() {
       try {
@@ -45,7 +45,7 @@
         viewer.src = "http://localhost:8080";
         viewer.style.display = "block";
       } catch (error) {
-        document.getElementById("status").innerText = "Port 8080 is NOT open. Please start the server.";
+        document.getElementById("status").innerText = "Streamer is not active . Please start the server.";
         setTimeout(checkPort, 3000);
       }
     }
